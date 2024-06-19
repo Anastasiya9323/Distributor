@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2a600"
+    tools:context=".ItemsActivity">
+
+    <TextView
+        android:id="@+id/history_link2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#fdfdfd"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="История" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/inter_bold"
+    android:textColor="#fdfdfd"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:text="Информация о диалогах" />
+
+<Button
+android:id="@+id/count_button"
+android:layout_width="220dp"
+android:layout_height="wrap_content"
+android:text="Узнать"
+android:textStyle="bold"
+android:textSize="16sp"
+android:textColor="#fff"
+android:layout_gravity="center"
+android:backgroundTint="#201E28"
+android:layout_marginTop="30dp"
+    />
+
+    <TextView
+        android:id="@+id/count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter_bold"
+        android:text=""
+        android:textColor="#fdfdfd"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+    <LinearLayout
+        android:id="@+id/chat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/textViewChats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Распределить чаты"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewChatsSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отметьте, чтобы чаты были распределены"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="2dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxChats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/channel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/textViewChannels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Распределить каналы"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewChannelsSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отметьте, чтобы каналы были распределены"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="2dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxChannels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+<Button
+android:id="@+id/put_button"
+android:layout_width="220dp"
+android:layout_height="wrap_content"
+android:text="Распределить по папкам"
+android:textStyle="bold"
+android:textSize="16sp"
+android:textColor="#fff"
+android:layout_gravity="center"
+android:backgroundTint="#201E28"
+android:layout_marginTop="30dp"
+android:visibility="invisible"
+    />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+<TextView
+android:id="@+id/result_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:fontFamily="@font/inter_bold"
+android:textColor="#fdfdfd"
+android:layout_gravity="center"
+android:textSize="25sp"
+android:textStyle="bold"
+android:text="text"
+android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/folder_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text=""
+        android:visibility="invisible"/>
+
+    </LinearLayout>

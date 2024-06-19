@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "632893773582",
+    "project_id": "distributorapp-5bf9f",
+    "storage_bucket": "distributorapp-5bf9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632893773582:android:b3df60db35c1d93d3d695f",
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.distributor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxBhsClYUhKHAU2t8CPsvZ9gH1L44rpJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
